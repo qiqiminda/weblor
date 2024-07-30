@@ -1,0 +1,87 @@
+/* Apply the background image to the entire body */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('./assets/background.png') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+/* Style the login container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Increase the size of the form and style it */
+form {
+  background: rgba(255, 255, 255, 0.66);
+  padding: 50px;
+  border-radius: 18px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  width: 350px;
+  
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+span {
+  display: block;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+  font-style: italic;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #d85f5f;
+  color: #04040b;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #d85f5f;
+}
